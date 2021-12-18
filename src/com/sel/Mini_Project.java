@@ -99,7 +99,7 @@ public class Mini_Project {
 		WebElement lastname = driver.findElement(By.id("customer_lastname"));
 		lastname.sendKeys("M");
 		WebElement password = driver.findElement(By.id("passwd"));
-		password.sendKeys("lmnoyp");
+		password.sendKeys("	");
 		
 		/*WebElement date = driver.findElement(By.id("uniform-days"));
 		Select y = new Select(date);
